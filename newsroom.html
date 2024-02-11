@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-16">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="imagenes/Slide9 (1).PNG">
+        <title>ISC FS Racing Team</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <a href="http://www.iscracingteam.com/formulastudent"
+        target="_blank">
+            <img src = "imagenes/Slide3.PNG"
+            height = 150
+            title = "Team Logo">
+        <br>
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="newsroom.html">Newsroom</a></li>
+                <li><a href="nosotros.html">Quiénes somos</a></li>
+                <li><a href="historia.html">Nuestra historia</a></li>
+                <li><a href="patros.html">Patrocinadores</a></li>
+                <li><a href="admisiones.html">Admisiones</a></li>
+                <li><a href="hof.html"><i>Hall of Fame</i></a></li>
+            </ul>
+        </nav>
+        <div class="franja_verde" style="background-color: rgb(6, 100, 50)">
+            hola hola hola
+        </div>
+        <hr>
+    </header>
+    
+    <main>
+        <div class="video_promo">
+            <video src="ISC Promo VID Final.mp4"
+            width = 600
+            controls
+            autoplay
+            muted></video>
+        </div>
+        <div class="info_asistentes">
+            <h2>Asitencia Competiciones</h2>
+            <table for="asistentes" border="1">
+                <tr id="asistentes" align="center">
+                    <th width="75">Nombre</th>
+                    <th width="75">Puesto</th>
+                    <th width="75">FSS</th>
+                    <th width="75">FSG</th>
+                    <th width="75">FS Italy</th>
+                </tr>
+                <tr id="asistentes" aling="center">
+                    <td>Álvaro</td>
+                    <td>Head of DV</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr id="asistentes" aling="center">
+                    <td>El Nano</td>
+                    <td>El Nano</td>
+                    <td>Obv</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="formulario">
+            <h3>¡Apúntate!</h3>
+            <form>
+                <div class="form1">
+                    <div class="columna1">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="El Nano" maxlength="10" required>
+                        <br>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="phone" id="telefono" placeholder="123 456 789" required>
+                        <br>
+                        <label for="email">E-Mail:</label>
+                        <input type="email" id="email" placeholder="f.alonso@elnano.com" required>
+                        <br>
+                        <label for="puesto">Puesto:</label>
+                        <input type="text" id="puesto" placeholder="team leader" required>
+                        <br>
+                        <label for="fss">FSS</label>
+                        <input type="checkbox" id="fss">
+                        <label for="fsg">FSG</label>
+                        <input type="checkbox" id="fsg">
+                        <label for="fsitaly">FS Italy</label>
+                        <input type="checkbox" id="fsitaly">
+                    </div>
+                    
+                </div>
+                
+                <div class="columna2">
+                    <br>
+                    <h3>Equipación del Equipo</h3>
+                    <label for="verde">Verde Algodón:</label>
+                    <input type="number" id="verde" min="2" max="8" placeholder="2" required>
+                    <br>
+                    <label for="blanca">Blanca <i>Técnica</i>:</label>
+                    <input type="number" id="blanca" min="2" max="8" placeholder="2" required>
+                    <br>
+                    <label for="talla">Talla:</label>
+                    <select id="talla" required>
+                        <option value="xs">XS</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </div>
+                <br>
+                <label for="dni">Adjunte su DNI/Pasaporte:</label>
+                <input type="file" id="dni" accept="document/pdf" required>
+                <br>
+                <br>
+                <label for="comentarios">Comentarios adicionales:</label>
+                <textarea id="comentarios" rows="3"></textarea>
+                <br>
+                <input type="submit">
+                <input type="reset">
+                <br>
+            </form>
+        </div>
+    </main>
+</body>
+
+<footer>
+    <hr>
+    <div class="franja_verde" style="background-color: rgb(6, 100, 50)">
+        hola hola hola
+    </div>
+    <div class="fotopatros">
+        <img src="imagenes/Footer-Patros-1.svg" alt="Logo del equipo ISC Racing">
+        
+    </div>
+    <div class="infocontacto">
+        <p>&copy;ISC Racing Team 2024<br>
+        Alberto Aguilera 25, 28015, Madrid, España<br>
+        <a href="mailto:formulastudent@iscracingteam.com">formulastudent@iscracingteam.com</a><br>
+        +34609354516</p>
+    </div>
+</footer>
+</html>
